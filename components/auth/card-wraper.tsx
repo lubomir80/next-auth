@@ -1,10 +1,8 @@
 import {
    Card,
    CardContent,
-   CardDescription,
    CardFooter,
    CardHeader,
-   CardTitle,
 } from '../ui/card'
 import BackButton from './back-button'
 import Header from './header'
