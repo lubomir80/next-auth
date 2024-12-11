@@ -14,7 +14,6 @@ function LoginButton({ children, mode = "redirect" }: LoginButtonProps) {
 
    const onClick = () => {
       router.push("/auth/login")
-      console.log("LOGIN BUTTON CLICK");
    }
 
    if (mode === "modal") {
